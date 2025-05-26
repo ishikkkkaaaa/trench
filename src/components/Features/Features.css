@@ -24,6 +24,7 @@
   position: relative;
   z-index: 2;
   padding: 2rem;
+  color: white;
 }
 
 .features-grid {
@@ -63,7 +64,7 @@
 }
 
 .feature-description {
-  color: #cccccc;
+  color: #ffffff;
   line-height: 1.5;
   font-size: 0.9rem;
   margin: 0;
@@ -96,11 +97,11 @@
   color: #ffffff;
 }
 
-.feature-description {
-  color: #cccccc;
+/* .feature-description {
+  color: white;
   line-height: 1.6;
   font-size: 0.9rem;
-}
+} */
 
 /* Responsive Design */
 @media (max-width: 768px) {

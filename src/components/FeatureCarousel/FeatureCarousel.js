@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import './FeatureCarousel.css';
-import carousel1 from '/Users/ishikakesarwani/lorem/src/assets/images/carousel1.png';
-import carousel2 from '/Users/ishikakesarwani/lorem/src/assets/images/carousel2.png';
-import carousel3 from '/Users/ishikakesarwani/lorem/src/assets/images/carousel3.png';
+import carousel1 from '../../assets/images/carousel1.png';
+import carousel2 from '../../assets/images/carousel2.png';
+import carousel3 from '../../assets/images/carousel3.png';
 
 const FeatureCarousel = () => {
   const [activeTab, setActiveTab] = useState('Trenchers');
@@ -85,7 +85,7 @@ const FeatureCarousel = () => {
             {carouselData[activeTab].features.map((feature, index) => (
               <div key={index} className="feature-item">
                 <h3 className="feature-title">{feature.title}</h3>
-                <p className="feature-description">{feature.description}</p>
+                <p className="feature-description1">{feature.description}</p>
               </div>
             ))}
           </div>
