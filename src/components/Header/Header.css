@@ -1,0 +1,73 @@
+.header {
+  background-color: #000000;
+  color: #ffffff;
+  min-height: 100vh; /* This makes it cover full viewport height */
+  display: flex; /* Added for vertical centering */
+  align-items: center; /* Centers content vertically */
+  justify-content: center; /* Centers content horizontally */
+  padding: 2rem;
+}
+
+.header-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%; /* Ensures content takes full width up to max-width */
+}
+
+.companion-text {
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  margin-bottom: 1.5rem;
+}
+
+.main-title {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+
+.brand-name {
+  display: block;
+  color: #808080;
+  font-style: italic;
+}
+
+.description {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.telegram-btn, .access-btn {
+  padding: 0.8rem 1.5rem;
+  border-radius: 25px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.telegram-btn {
+  background-color: #40B3A2;
+  color: white;
+}
+
+.access-btn {
+  background-color: transparent;
+  border: 1px solid #40B3A2;
+  color: #40B3A2;
+}
+
+.telegram-btn:hover, .access-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(64, 179, 162, 0.2);
+}
