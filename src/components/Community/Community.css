@@ -1,0 +1,85 @@
+.community {
+  background-color: #000000;
+  padding: 2rem;
+  color: white;
+}
+
+.community-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #1A1A1A;
+  border-radius: 2rem;
+  padding: 4rem 2rem;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  text-align: center;
+  max-width: 600px;
+  z-index: 1;
+}
+
+.content h2 {
+  font-family: monospace;
+  font-size: 2.5rem;
+  margin: 0 0 1.5rem 0;
+}
+
+.content p {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 0 0 2rem 0;
+}
+
+.join-button {
+  display: inline-block;
+  background: #4ECCA3;
+  color: black;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.join-button:hover {
+  background: #3db892;
+}
+
+.blob {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+}
+
+.blob-left {
+  left: -50px;
+  top: -50px;
+  transform: rotate(-45deg);
+}
+
+.blob-right {
+  right: -50px;
+  bottom: -50px;
+  transform: rotate(45deg);
+}
+
+@media (max-width: 768px) {
+  .community-container {
+    padding: 3rem 1.5rem;
+  }
+
+  .content h2 {
+    font-size: 2rem;
+  }
+
+  .blob {
+    width: 150px;
+    height: 150px;
+  }
+}
