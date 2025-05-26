@@ -1,0 +1,78 @@
+.packages {
+  background-color: #000000;
+  padding: 4rem 2rem;
+  color: white;
+}
+
+.packages-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.package-card {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 1.5rem;
+  border: 1px solid rgba(246, 243, 243);
+  padding: 2.5rem;
+  flex: 1;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.package-card h2 {
+  font-family: monospace;
+  font-size: 2rem;
+  margin: 0 0 1rem 0;
+}
+
+.package-subtitle {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.9rem;
+  margin: 0 0 2.5rem 0;
+}
+
+.package-features {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  margin-bottom: 2.5rem;
+  flex-grow: 1;
+}
+
+.feature-item {
+  display: flex;
+  gap: 0.75rem;
+  text-align: left;
+  font-size: 0.9rem;
+}
+
+
+.package-button {
+  background: #4ECCA3;
+  color: black;
+  border: none;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.package-button:hover {
+  background: #3db892;
+}
+
+@media (max-width: 768px) {
+  .packages-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .package-card {
+    width: 100%;
+  }
+}
